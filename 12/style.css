@@ -1,0 +1,33 @@
+.main{
+    border: 1px solid green;
+    display: flex;
+    background-color: aqua;
+}
+.blocktext {
+    min-width: 250px;
+    background-color: bisque;
+    padding: 11px;
+    height: 55px;
+}
+.blocktext li {
+    margin-left: 12px; 
+}
+.block2 {
+    background-color: rgb(158, 157, 157);
+    margin: 0 5px 0 5px;
+}
+.block2 p {
+    margin: 0 0 0 0;
+}
+@media (max-width:1024px) {
+    .main {
+        display: block;
+    }
+    .blocktext {
+        width: 250px;
+    }
+    .block2 {
+        width: 600px;
+        margin: 0 0 0 0;
+    }
+}

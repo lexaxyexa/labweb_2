@@ -1,0 +1,54 @@
+.blockstatic {
+    background-color: blueviolet;
+    color: white;
+    width: 150px;
+    height: 100px;
+    margin-top: 0px;
+}
+.blockrelative1 {
+    background-color: rgb(170, 2, 2);
+    color: white;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: -20px;
+}
+.blockrelative2 {
+    background-color: rgb(228, 84, 18);
+    color: white;
+    width: 150px;
+    height: 100px;
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+.blockrelative3 {
+    background-color: rgb(253, 85, 127);
+    color: white;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: -60px;
+}
+.blockabsolute {
+    position: absolute;
+    background-color: rgb(118, 18, 128);
+    width: 300px;
+    height: 150px;
+    right: 0;
+    top: 95px;
+}
+.blockabsolute p {
+    margin: 0;
+}
+.blockfixed {
+    background-color: green;
+    color: white;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+}
+.blockfixed p {
+    margin: 0;
+}

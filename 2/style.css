@@ -1,0 +1,60 @@
+
+html{
+    width: 100%;
+}
+
+body{
+    margin:0;
+    height: 100%;
+    width: 100%;
+}
+.header {
+    background-color: lavender;
+    text-align: left;
+    height: 68px;
+}
+.header h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.main {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+.left {
+    background-color: rgb(183, 253, 151);
+    max-width: 25%;
+}
+.left p {
+    margin-left: 10px;
+    margin-top: 0px;
+    line-height: 25px;
+}
+.center p {
+    margin-top: 0px;
+    margin-left: 5px;
+    line-height: 25px;
+}
+.right {
+    background-color: rgb(252, 249, 86);
+    float: right;
+    max-width: 200px;
+}
+.right p {
+    margin-top: 0px;
+    margin-left: 5px;
+    line-height: 25px; 
+}
+.footer {
+    background-color:black;
+}
+.link a{
+    color: yellow;
+    line-height: 30px;
+}
+.link{
+    text-align: center;
+    height: 30px;
+}

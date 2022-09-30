@@ -1,0 +1,17 @@
+.p1 {
+    margin: 0 auto;
+    width: 600px;
+}
+.p1 p {
+    background-color: green;
+    color: white;
+}
+.p2 {
+    margin: 0 auto;
+    width: 700px;
+}
+.p2 p {
+    background-color: blue;
+    color: white;
+    padding: 50px 50px 50px 50px;
+}   

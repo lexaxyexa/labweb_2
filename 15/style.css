@@ -1,0 +1,10 @@
+.block {
+    width: 150px;
+    height: 70px;
+    background-color: rgb(0, 255, 179);
+    display: inline-block;
+    margin: 12px;
+}
+.block2 {
+    background-color: bisque;
+}
